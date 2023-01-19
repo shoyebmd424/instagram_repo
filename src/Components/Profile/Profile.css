@@ -1,0 +1,48 @@
+.profile-com{
+    width: 80%;
+    margin: auto;
+}
+.profile{
+    display: flex;
+}
+.image{
+    padding: 3rem;
+}
+.image>img{
+    width:9rem;
+    border-radius: 50%;
+    margin: auto;
+}  
+.profile-name>p>i{
+   color: rgb(39, 123, 241);
+}
+.profile-name>p>button>i{
+    margin-left: 5px;
+    font-size: 18px;
+}
+.btn-primary{
+    background-color: rgb(39, 123, 241);
+    color: white;
+    font-weight: bold;
+}
+.profile-name>p>button{
+padding: 6px 1rem;
+border-radius: 5px;
+border: none;
+margin: 0 5px;
+cursor: pointer;
+}
+.follower{
+    display: flex;
+    gap: 1.5rem;
+}
+.profile-content>div{
+    margin:1.5rem 0;
+}
+
+
+@media screen and (max-width:840px) {
+    .profile-com{
+width: 100%;
+    }
+    }

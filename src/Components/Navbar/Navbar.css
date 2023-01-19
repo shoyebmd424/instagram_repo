@@ -1,0 +1,13 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 18px;
+    margin: 1rem 5px;
+}
+.navbar>li{
+    list-style: none;
+}
+.navbar>li>i{
+    font-size: 18px;
+}

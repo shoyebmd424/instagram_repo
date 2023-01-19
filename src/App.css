@@ -1,0 +1,21 @@
+.App{
+  background-color: rgb(244, 252, 252);
+  display: grid;
+  grid-template-columns: 20rem auto;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+i{
+  font-size: 25px;
+}
+@media screen and (max-width:840px) {
+.App{
+  grid-template-columns: auto auto;
+}
+}
+  a{
+    text-decoration: none;
+    color: black;
+  }
